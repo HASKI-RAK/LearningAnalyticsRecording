@@ -1,0 +1,1 @@
+docker compose exec server tar cf - /app/recordings > recordings.tar

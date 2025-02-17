@@ -1,0 +1,167 @@
+Filename,Word Count,Image Count,Time per PageNumber of Pages,Number of Pages,Estimated Reading Time per Page (Minutes),Resolution Height
+01_Software Engineering/01_Grundlagen/SES_01_MS_SoftwareEngineering-EmergingTrends_21.pdf,61,8,"[2.08, 0.83]",2,2.91,540.0
+01_Software Engineering/01_Grundlagen/SES_01_MS_SoftwareEngineering_20.pdf,1713,10,"[1.44, 0.25, 0.57, 0.24, 0.22, 0.16, 0.21, 0.16, 0.23, 0.22, 0.15, 0.48, 0.13, 0.19, 0.18, 0.71, 0.34, 0.39, 0.34, 0.56, 0.33, 0.36, 0.04, 0.45, 0.1, 0.55, 0.44, 0.33, 0.21, 0.19]",30,10.19,595.3200073242188
+01_Software Engineering/01_Grundlagen/SES_01_TZ_50JahreSE_Sammlung_28.pdf,152,0,[0.61],1,0.61,841.5
+01_Software Engineering/01_Grundlagen/SES_01_TZ_BasicConceptsandTaxonomyofDependableandSecureComputing_29.pdf,17574,26,"[3.45, 3.53, 4.15, 3.54, 2.13, 1.16, 3.72, 3.59, 3.45, 3.87, 3.28, 2.02, 4.01, 3.63, 2.61, 1.4, 3.72, 3.51, 3.88, 4.03, 2.69, 5.41, 6.18]",23,78.96,774.0
+01_Software Engineering/01_Grundlagen/SES_01_TZ_SoftwareEngineering_23.pdf,2803,5,"[0.52, 3.15, 3.02, 3.08, 3.11]",5,12.88,774.0
+01_Software Engineering/01_Grundlagen/SES_01_ZF_Einführung_701.pdf,31,2,[0.79],1,0.79,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_01_Requirements_Engineering_34.pdf,289,6,"[1.44, 0.3, 0.15, 0.82, 0.24, 0.21]",6,3.16,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_02_Software_Design_Codierung_Test_35.pdf,349,3,"[0.87, 0.26, 0.16, 0.29, 0.41, 0.23, 0.18]",7,2.40,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_03_Projektmanagement_36.pdf,250,2,"[0.54, 0.17, 0.45, 0.29, 0.22]",5,1.67,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_04_Software_Qualitätssicherung_37.pdf,230,4,"[0.75, 0.47, 0.21, 0.19, 0.49, 0.15]",6,2.25,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_05_Software_Konfigurationsmanagement_38.pdf,485,2,"[0.93, 0.3, 0.39, 0.15, 0.11, 0.24, 0.14, 0.34]",8,2.61,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_06_Notationen_Dokumente_Templates_Methoden_Tools_39.pdf,207,2,"[0.49, 0.19, 0.17, 0.64]",4,1.49,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_MS_ElementeSE_07_Rollen_40.pdf,231,6,"[0.85, 0.17, 0.23, 0.57, 1.04, 0.06]",6,2.92,595.3200073242188
+02_Entwicklungsprozesse/01_Elemente_SE/SES_02_ZF_Entwicklungsprozesse_01_Elemente_SE_700.pdf,28,2,[0.78],1,0.78,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_01_Software_Prozess_41.pdf,422,10,"[1.43, 0.27, 1.12, 0.88, 0.24, 0.16, 0.22, 0.14, 0.52, 0.04]",10,5.02,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_02_Wasserfall_Modell_42.pdf,281,4,"[0.45, 0.24, 0.16, 0.26, 0.3, 1.04]",6,2.46,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_03_V-Modell_43.pdf,135,5,"[0.53, 0.39, 0.24, 1.04]",4,2.21,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_04_Inkrementelles_Iteratives_Vorgehen_44.pdf,573,5,"[0.75, 0.2, 0.19, 0.16, 0.28, 0.23, 0.2, 0.26, 0.67, 1.04]",10,3.96,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_04_Inkrementelles_Iteratives_Vorgehen_RUP_45.pdf,258,5,"[0.52, 0.25, 0.24, 0.12, 0.39, 0.13, 1.04]",7,2.70,595.3200073242188
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_MS_Vorgehensmodelle_KategorisierungEntwicklungsprozesse_Agilität-Schneiders-Modell_52.pdf,209,2,"[0.07, 0.46, 0.17, 0.13, 0.44, 0.11, 0.11, 0.02]",8,1.50,595.219970703125
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_TZ_Vorgehensmodelle_What Google Learned From Its Quest to Build the Perfect Team_62.pdf,5926,2,"[6.47, 5.07, 5.05, 4.15, 3.63]",5,24.37,842.0
+02_Entwicklungsprozesse/02_Vorgehensmodelle_Klassisch/SES_02_ZF_Entwicklungsprozesse_02_Klassisch_699.pdf,99,10,"[1.09, 1.4, 0.77, 0.47]",14,3.73,595.3200073242188
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_MS_Vorgehensmodelle_05_Agile_Methoden_46.pdf,353,1,"[0.85, 0.5, 0.4]",3,1.75,595.3200073242188
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_MS_Vorgehensmodelle_05_Agile_Methoden_Extreme_Programming_47.pdf,192,4,"[0.66, 0.2, 0.19, 1.04]",4,2.10,595.3200073242188
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_MS_Vorgehensmodelle_05_Agile_Methoden_Scrum_48.pdf,259,6,"[0.53, 0.22, 0.3, 0.49, 0.45, 1.04]",6,3.04,595.3200073242188
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_TZ_Vorgehensmodelle_Lösung_Schneiders-Modell_57.pdf,361,0,"[0.7, 0.41, 0.33]",3,1.44,540.0
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_TZ_Vorgehensmodelle_Scrum_61.pdf,7715,2,"[2.58, 2.83, 2.92, 2.48, 3.0, 2.3, 2.77, 2.63, 2.3, 2.22, 2.61, 1.0, 1.89]",13,31.53,841.8900146484375
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_TZ_Vorgehensmodelle_XP_60.pdf,1375,4,"[0.68, 0.12, 0.39, 0.08, 0.26, 0.11, 0.14, 0.16, 0.57, 0.2, 0.12, 0.3, 0.2, 0.26, 0.26, 0.21, 0.3, 0.29, 0.28, 0.15, 0.29, 0.31, 0.26, 0.08, 0.22, 0.13, 0.26, 0.18]",28,6.83,421.20001220703125
+02_Entwicklungsprozesse/03_Vorgehensmodelle_Agil/SES_02_ZF_Entwicklungsprozesse_03_Agil_698.pdf,100,5,"[1.77, 0.1, 0.2]",3,2.07,595.3200073242188
+02_Entwicklungsprozesse/04_Prozessbewertung/SES_02_MS_Vorgehensmodelle_06_Prozessbewertung_49.pdf,157,4,"[0.86, 0.56, 0.54]",3,1.96,595.3200073242188
+02_Entwicklungsprozesse/04_Prozessbewertung/SES_02_MS_Vorgehensmodelle_06_Prozessbewertung_CMMI_50.pdf,780,8,"[0.68, 0.09, 0.31, 0.28, 0.17, 0.62, 0.5, 0.28, 0.77, 0.42, 0.42, 0.22, 1.04]",13,5.79,595.3200073242188
+02_Entwicklungsprozesse/04_Prozessbewertung/SES_02_MS_Vorgehensmodelle_06_Prozessbewertung_SPICE_51.pdf,612,15,"[0.69, 0.18, 0.13, 0.21, 0.53, 2.3, 0.41, 0.73, 0.72, 0.28, 0.16, 1.04, 0.06]",13,7.45,595.3200073242188
+02_Entwicklungsprozesse/04_Prozessbewertung/SES_02_TAM_CMMI_SPICE_500.pdf,893,0,"[0.86, 1.11, 0.9, 0.7]",4,3.57,595.0
+02_Entwicklungsprozesse/04_Prozessbewertung/SES_02_ZF_Entwicklungsprozesse_04_Prozessbewertung_697.pdf,36,3,[1.14],1,1.14,595.3200073242188
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_01_Motivation_73.pdf,47,9,"[1.04, 0.39, 1.76]",3,3.19,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_02_Grundbegriffe_74.pdf,524,7,"[1.04, 0.63, 0.53, 0.7, 0.19, 0.25, 0.44, 0.4, 0.25]",9,4.43,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_03_Nicht_Funktionale_RQs_75.pdf,266,7,"[1.05, 1.4, 0.5, 0.23, 0.22]",5,3.40,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_04_Sammmeln_von_RQs_76.pdf,52,3,"[1.05, 0.16]",2,1.21,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_05_Analysieren_von_RQs_77.pdf,208,4,"[1.05, 0.18, 0.68, 0.25]",4,2.17,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_07_Ueberpruefen_von_RQs_79.pdf,141,3,"[1.05, 0.35, 0.16]",3,1.56,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_MS_RequirementsEngineering_08_Modell_von_Kano_80.pdf,109,4,"[1.05, 0.16, 0.43, 0.12]",4,1.77,540.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_TZ_RequirementsEngineering_Checkliste_84.pdf,511,0,"[1.52, 0.52]",2,2.04,841.9199829101562
+03_Requirements_Engineering/01_Grundlagen/SES_03_TZ_RequirementsEngineering_Denkfehler_81.pdf,684,0,"[0.78, 0.55, 0.64, 0.62, 0.15]",5,2.74,842.0
+03_Requirements_Engineering/01_Grundlagen/SES_03_TZ_RequirementsEngineering_Requirements_Engineering_85.pdf,12401,32,"[2.03, 0.62, 1.18, 1.38, 2.04, 1.6, 2.3, 2.26, 2.04, 1.66, 1.3, 2.39, 2.1, 1.94, 2.48, 1.74, 1.34, 2.2, 2.16, 2.39, 2.5, 2.6, 1.76, 2.31, 1.87, 2.01, 0.6, 0.02, 4.22, 4.45, 0.78]",31,60.27,595.2760009765625
+03_Requirements_Engineering/01_Grundlagen/SES_03_TZ_RequirementsEngineering_Review_Techniken_RQs_82.pdf,2969,1,"[0.32, 0.66, 0.67, 0.62, 0.67, 0.65, 0.83, 0.82, 0.93, 1.06, 0.77, 1.08, 1.0, 1.24, 0.88]",15,12.21,680.4000244140625
+03_Requirements_Engineering/01_Grundlagen/SES_03_ZF_RequirementsEngineering_01_Grundlagen_90.pdf,192,23,"[1.12, 0.89, 1.11, 2.43, 1.4, 1.48]",6,8.43,595.3200073242188
+03_Requirements_Engineering/02_Satzschablone/SES_03_MS_RequirementsEngineering_06_Dokumentieren_von_RQs_78.pdf,639,5,"[1.05, 0.14, 0.13, 0.14, 0.23, 0.24, 0.23, 0.47, 0.11, 0.16, 0.57, 0.2, 0.13, 0.43]",14,4.22,540.0
+03_Requirements_Engineering/02_Satzschablone/SES_03_TZ_RequirementsEngineering_Satzschablonen_83.pdf,9954,30,"[0.33, 0.58, 0.36, 0.4, 0.57, 1.21, 1.38, 1.22, 0.36, 0.93, 0.76, 1.08, 0.77, 0.87, 0.76, 0.95, 0.82, 1.28, 1.29, 1.06, 1.36, 0.47, 0.92, 1.08, 0.75, 0.87, 0.5, 0.91, 1.52, 1.02, 0.97, 0.93, 0.86, 0.96, 0.95, 0.4, 0.44, 1.06, 1.11, 0.76, 0.64, 0.74, 0.84, 0.66, 0.65, 1.12, 0.49, 0.14, 0.48, 8.56, 0.33, 0.33]",52,49.82,595.2760009765625
+03_Requirements_Engineering/02_Satzschablone/SES_03_ZF_RequirementsEngineering_02_Satzschablone_696.pdf,94,37,"[0.54, 12.17]",2,12.71,595.3200073242188
+04_UML/01_SW_Entwurf_Grundlagen/SES_04_MS_SoftwareEntwurf_01_Grundlagen_95.pdf,271,9,"[1.42, 0.23, 1.17, 0.39, 0.29, 0.58]",6,4.08,595.3200073242188
+04_UML/01_SW_Entwurf_Grundlagen/SES_04_ZF_SoftwareEntwurf_01_Grundlagen_723.pdf,49,2,"[0.76, 0.1]",2,0.86,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/OOA_OOD-UML-Notationsübersicht-2.5_116.pdf,864,1,"[1.23, 0.95, 0.94, 0.66]",4,3.79,842.0
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_ObjektorientierteAnalyse_01_Grundlagen_98.pdf,1231,20,"[1.43, 0.24, 1.2, 0.27, 0.4, 0.31, 0.38, 0.21, 3.21, 0.25, 0.49, 0.99, 0.26, 0.28, 0.24, 0.41, 0.31, 0.24, 0.21, 0.27]",20,11.59,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_ObjektorientierteAnalyse_02_UML_99.pdf,877,2,"[0.71, 0.24, 0.17, 0.22, 0.27, 0.29, 0.32, 0.31, 0.3, 0.45, 0.47, 0.15, 0.14, 0.14]",14,4.17,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_ObjektorientierteAnalyse_03_DiagrammeUML_100.pdf,174,75,"[8.75, 0.79, 2.77, 6.08, 4.08, 1.43, 0.75, 1.04]",8,25.70,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_ObjektorientierteAnalyse_04_Modellierungstatisch_101.pdf,1490,30,"[0.68, 0.25, 0.22, 0.57, 0.23, 0.22, 0.23, 0.26, 0.26, 0.24, 0.11, 0.31, 0.43, 0.43, 0.32, 0.22, 0.25, 0.39, 0.35, 0.17, 0.26, 8.53, 1.04]",23,15.96,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_ObjektorientierteAnalyse_05_Modellierungdynamisch_102.pdf,484,4,"[0.68, 0.23, 0.41, 0.17, 0.3, 0.16, 0.21, 1.04, 0.06]",9,3.27,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_MS_SoftwareEntwurf_02_Grobentwurf_96.pdf,2128,6,"[0.53, 0.18, 0.16, 0.25, 0.19, 0.22, 0.43, 0.61, 0.21, 0.37, 0.33, 0.32, 0.22, 0.12, 0.22, 0.34, 0.44, 0.43, 0.44, 0.48, 0.23, 0.29, 0.26, 0.42, 0.33, 0.44, 0.34, 0.3, 0.34, 1.04]",30,10.51,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_TZ_ATAM_Method_for_Architecture_Evaluation_111.pdf,21664,2,"[0.1, 0.0, 0.48, 1.67, 0.62, 0.56, 0.56, 0.02, 0.14, 0.02, 0.56, 0.02, 1.64, 1.66, 1.96, 0.02, 1.41, 0.49, 1.09, 0.62, 1.56, 0.77, 0.86, 0.86, 1.5, 1.38, 1.34, 1.14, 1.32, 2.05, 1.76, 0.96, 1.26, 1.66, 1.82, 1.5, 1.47, 1.07, 0.86, 1.03, 1.71, 1.87, 1.21, 0.9, 1.78, 1.31, 0.98, 1.25, 1.63, 0.1, 1.73, 1.82, 1.23, 0.3, 0.95, 0.02, 1.62, 1.52, 1.05, 1.15, 1.98, 1.74, 1.96, 1.7, 1.34, 1.8, 1.82, 1.28, 1.1, 0.02, 1.21, 1.73, 0.53, 0.02, 1.38, 0.02, 0.89, 0.27, 0.29, 0.33, 0.27, 0.02, 1.63]",83,87.32,792.0
+04_UML/02_SW_Grobentwurf_OOA/SES_04_TZ_Tafelanschrift-2020-04-21_TAFELANSCHRIFT_112.pdf,0,2,"[0.0, 0.67, 0.0, 0.0]",4,0.67,841.0
+04_UML/02_SW_Grobentwurf_OOA/SES_04_TZ_UML-Checklisten_108.pdf,0,88,"[1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33, 1.33]",22,29.33,842.0
+04_UML/02_SW_Grobentwurf_OOA/SES_04_ZF_SoftwareEntwurf_02_Grobentwurf_724.pdf,16,4,[1.4],1,1.40,595.3200073242188
+04_UML/02_SW_Grobentwurf_OOA/SES_04_ZF_UML-Notationsübersicht-2.5_107.pdf,864,1,"[1.23, 0.95, 0.94, 0.66]",4,3.79,842.0
+04_UML/03_SW_Feinentwurf_OOD/SES_04_MS_ObjektorientiertesDesign_01_Grundlagen_103.pdf,606,11,"[1.43, 0.23, 0.37, 0.36, 0.23, 0.18, 0.15, 0.14, 0.17, 0.13, 0.18, 0.45, 2.06]",13,6.09,595.3200073242188
+04_UML/03_SW_Feinentwurf_OOD/SES_04_MS_ObjektorientiertesDesign_02_Modellierungstatisch_104.pdf,1297,219,"[0.57, 0.42, 2.18, 0.49, 4.95, 2.18, 0.18, 3.77, 2.79, 3.78, 0.34, 1.26, 0.28, 2.82, 1.91, 3.57, 0.33, 27.41, 1.92, 0.14, 3.48, 0.15, 3.8, 8.4, 1.04]",25,78.19,595.3200073242188
+04_UML/03_SW_Feinentwurf_OOD/SES_04_MS_ObjektorientiertesDesign_03_Modellierungdynamisch_105.pdf,792,45,"[0.58, 0.16, 5.06, 0.2, 5.04, 2.53, 0.35, 0.28, 0.21, 0.83, 0.27, 0.56, 0.73, 0.25, 1.04, 0.06]",16,18.17,595.3200073242188
+04_UML/03_SW_Feinentwurf_OOD/SES_04_MS_SoftwareEntwurf_03_Feinentwurf_97.pdf,768,5,"[0.67, 0.25, 0.19, 0.19, 0.38, 0.38, 0.23, 0.39, 0.16, 0.19, 0.27, 0.34, 1.04, 0.06]",14,4.74,595.3200073242188
+04_UML/03_SW_Feinentwurf_OOD/SES_04_ZF_SoftwareEntwurf_03_Feinentwurf_725.pdf,198,0,"[0.27, 0.2, 0.21, 0.11]",4,0.79,595.3200073242188
+04_UML/03_SW_Feinentwurf_OOD/uebersicht_der_uml_diagramme_742.pdf,2580,12,"[1.28, 1.33, 1.07, 1.27, 0.73, 0.84, 1.09, 1.25, 1.23, 1.25, 1.01, 0.66, 1.32]",13,14.32,842.0
+04_UML/04_Safe_and_Secure_SW_Design/SES_04_MS_Safe-Software-Design_106.pdf,3819,24,"[2.1, 0.75, 0.87, 0.48, 0.71, 0.25, 0.14, 0.5, 0.33, 1.02, 0.63, 0.14, 0.38, 0.25, 1.25, 0.32, 0.92, 1.0, 1.06, 1.03, 0.96, 0.99, 1.05, 1.06, 0.87, 0.47, 0.49, 0.75, 0.44, 0.88, 0.91, 0.28]",32,23.28,540.0
+04_UML/04_Safe_and_Secure_SW_Design/SES_04_TAM_Enwticklung_sicherheitsger_SW_743.pdf,8580,0,"[1.0, 1.31, 0.67, 0.96, 1.42, 1.01, 1.29, 0.76, 1.37, 1.5, 1.08, 1.01, 1.11, 0.36, 1.27, 1.09, 1.21, 1.39, 1.42, 1.55, 0.84, 1.34, 0.86, 1.48, 0.81, 1.41, 0.63, 1.22, 1.61, 1.3]",30,34.32,680.3150024414062
+04_UML/04_Safe_and_Secure_SW_Design/SES_04_ZF_SoftwareEntwurf_04_Safe-Software-Design_726.pdf,131,14,"[1.89, 2.03, 0.43, 0.85]",4,5.19,595.3200073242188
+05_Design_Pattern/01_Grundlagen/05_DesignPattern_SU_Grundlagen_129.pdf,61,0,"[0.11, 0.14]",2,0.24,540.0
+05_Design_Pattern/01_Grundlagen/Design.Patterns.-.Elements.Of.Reusable.Object.Oriented.Software.(1995)_130.pdf,12039,9,"[1.03, 0.98, 1.06, 0.96, 0.81, 1.09, 0.9, 0.8, 1.1, 0.96, 0.8, 0.6, 0.7, 0.56, 0.51, 0.59, 0.69, 0.39, 0.92, 0.24, 0.47, 0.87, 0.99, 1.02, 0.96, 1.0, 1.31, 1.09, 0.59, 0.86, 0.98, 0.82, 0.76, 0.86, 0.99, 0.99, 0.89, 1.01, 1.04, 0.83, 0.87, 1.14, 1.0, 0.78, 0.67, 0.65, 0.75, 0.82, 0.93, 1.02, 0.98, 0.91, 0.79, 0.76, 0.62, 0.34, 0.43, 0.8, 0.76, 0.43, 0.47, 0.56, 0.55, 0.12]",64,51.16,792.0
+05_Design_Pattern/01_Grundlagen/Hd1st-State-Pattern_132.pdf,0,1787,"[1.0, 1.67, 0.33, 0.0, 0.33, 0.0, 0.0, 0.0, 0.0, 6.33, 1.67, 45.0, 0.33, 0.33, 5.33, 45.67, 0.33, 1.0, 0.0, 5.0, 0.0, 23.67, 21.33, 62.67, 47.67, 3.0, 0.33, 0.0, 0.0, 4.67, 0.33, 0.33, 0.33, 0.33, 0.0, 1.33, 31.0, 0.33, 92.0, 5.33, 41.67, 47.0, 64.33, 33.67]",44,595.67,842.0
+05_Design_Pattern/01_Grundlagen/SES_05_MS_Entwurfsmuster_01_Grundlagen_123.pdf,724,9,"[1.42, 0.22, 1.22, 0.21, 0.16, 0.3, 0.23, 0.21, 0.47, 0.29, 0.34, 0.27, 0.16, 0.39]",14,5.90,595.3200073242188
+05_Design_Pattern/01_Grundlagen/SES_05_MS_Entwurfsmuster_Tafelanschrift_DesignPattern_2020-12-02_124.pdf,0,0,"[0.0, 0.0, 0.0]",3,0.00,841.0
+05_Design_Pattern/02_SOLID/05_DesignPattern_SU_SOLID_257.pdf,52,0,[0.21],1,0.21,540.0
+05_Design_Pattern/02_SOLID/Clean Architecture_258.pdf,6029,20,"[0.56, 1.27, 1.24, 0.03, 0.37, 1.24, 0.99, 1.29, 1.01, 1.32, 1.21, 0.03, 0.37, 1.0, 1.31, 0.9, 0.93, 1.06, 0.65, 0.03, 0.37, 1.18, 1.02, 1.13, 1.02, 0.62, 0.37, 1.17, 0.89, 1.27, 0.63, 1.18, 1.17, 1.11, 0.82]",35,30.78,656.927978515625
+05_Design_Pattern/02_SOLID/SES_05_MS_Entwurfsmuster_Tafelanschrift_SOLID_253.pdf,0,2,"[0.33, 0.0, 0.0, 0.33, 0.0]",5,0.67,841.0
+05_Design_Pattern/03_Singleton/05_DesignPattern_SU_Singleton_141.pdf,26,0,[0.1],1,0.10,540.0
+05_Design_Pattern/03_Singleton/05_DesignPattern_TAM_Singleton_142.pdf,0,1,[0.33],1,0.33,595.219970703125
+05_Design_Pattern/03_Singleton/SES_05_MS_Entwurfsmuster_02_Singleton_137.pdf,224,58,"[0.63, 10.01, 9.45, 0.14]",4,20.23,595.3200073242188
+05_Design_Pattern/04_Observer_MVC/05_DesignPattern_SU_MVC_228.pdf,91,2,"[0.86, 0.17]",2,1.03,595.3200073242188
+05_Design_Pattern/04_Observer_MVC/05_DesignPattern_SU_Observer_227.pdf,49,0,[0.2],1,0.20,540.0
+05_Design_Pattern/04_Observer_MVC/05_DesignPattern_TAM_Observer_230.pdf,0,2,"[0.33, 0.33]",2,0.67,595.219970703125
+05_Design_Pattern/04_Observer_MVC/Design-Pattern-Model-View-Controller-MS_221.pdf,418,9,"[2.09, 0.38, 0.73, 0.7, 0.38, 0.38]",6,4.67,540.0
+05_Design_Pattern/04_Observer_MVC/SES_05_MS_Entwurfsmuster_11_Observer_220.pdf,325,118,"[0.61, 0.3, 18.79, 0.2, 7.82, 0.53, 12.4]",7,40.63,595.3200073242188
+05_Design_Pattern/04_Observer_MVC/SES_05_TZ_Entwurfsmuster_Tafelanschrift-Observer_229.pdf,0,2,[0.67],1,0.67,841.0
+05_Design_Pattern/05_Decorator/05_DesignPattern_SU_Decorator_182.pdf,38,0,[0.15],1,0.15,540.0
+05_Design_Pattern/05_Decorator/05_DesignPattern_TAM_Decorator_185.pdf,0,1,[0.33],1,0.33,595.219970703125
+05_Design_Pattern/05_Decorator/Hd1st-Decorator-Pattern_186.pdf,0,1967,"[1.0, 6.0, 310.0, 0.67, 45.0, 44.33, 0.33, 1.67, 0.0, 0.33, 1.33, 1.0, 10.33, 25.33, 0.33, 57.33, 0.33, 0.33, 43.0, 0.0, 39.33, 3.67, 29.67, 0.33, 0.33, 0.33, 29.33, 4.0, 0.0]",29,655.67,842.0
+05_Design_Pattern/05_Decorator/SES_04_MS_SoftwareEntwurf_01_Grundlagen_184.pdf,271,9,"[1.42, 0.23, 1.17, 0.39, 0.29, 0.58]",6,4.08,595.3200073242188
+05_Design_Pattern/05_Decorator/SES_05_MS_Entwurfsmuster_07_Decorator_178.pdf,660,65,"[0.5, 0.33, 0.3, 0.28, 0.3, 0.1, 0.31, 0.16, 0.15, 7.39, 0.47, 13.73, 0.12, 0.15]",14,24.31,595.3200073242188
+05_Design_Pattern/06_Command/05_DesignPattern_SU_Command_214.pdf,91,3,[1.36],1,1.36,595.3200073242188
+05_Design_Pattern/06_Command/SES_05_MS_Entwurfsmuster_10_Command_210.pdf,438,92,"[0.65, 0.25, 11.57, 0.2, 0.49, 0.35, 9.06, 9.85]",8,32.42,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/05_DesignPattern_SU_Adapter_169.pdf,48,4,"[0.76, 0.77]",2,1.53,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/05_DesignPattern_SU_Bridge_170.pdf,40,6,[2.16],1,2.16,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/05_DesignPattern_SU_Proxy_171.pdf,27,0,[0.11],1,0.11,540.0
+05_Design_Pattern/07_Proxy_Adapter_Bridge/SES_05_MS_Entwurfsmuster_04_Adapter_157.pdf,352,98,"[0.57, 7.47, 0.2, 7.47, 0.16, 0.35, 17.86]",7,34.07,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/SES_05_MS_Entwurfsmuster_05_Bridge_158.pdf,326,11,"[0.56, 0.27, 1.62, 0.21, 2.12, 0.19]",6,4.97,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/SES_05_MS_Entwurfsmuster_06_Proxy_159.pdf,430,99,"[0.53, 0.28, 8.49, 0.24, 0.12, 0.3, 20.51, 4.25]",8,34.72,595.3200073242188
+05_Design_Pattern/07_Proxy_Adapter_Bridge/SES_05_TAM_Adapter_Proxy_Bridge_172.pdf,8262,14,"[1.12, 1.43, 0.73, 0.58, 0.97, 1.32, 1.05, 1.06, 1.0, 0.49, 0.74, 0.45, 0.52, 1.2, 1.26, 0.23, 0.69, 1.11, 0.77, 0.65, 0.59, 0.56, 0.8, 0.99, 0.46, 0.38, 0.44, 0.48, 0.4, 0.46, 0.48, 0.81, 1.09, 0.66, 1.0, 0.89, 0.61, 0.85, 0.45, 0.3, 0.79, 0.46, 0.16, 0.45, 0.78, 0.84, 0.53, 0.28, 0.22, 0.25, 0.34, 0.2, 0.54, 0.48, 0.78, 0.54]",56,37.71,792.0
+05_Design_Pattern/08_Abstract_Factory/05_DesignPattern_SU_AbstractFactory_150.pdf,34,0,[0.14],1,0.14,540.0
+05_Design_Pattern/08_Abstract_Factory/05_DesignPattern_TAM_AbstractFactory_151.pdf,0,2,[0.67],1,0.67,595.219970703125
+05_Design_Pattern/08_Abstract_Factory/SES_05_MS_Entwurfsmuster_03_AbstractFactory_146.pdf,311,44,"[0.6, 0.2, 0.2, 14.4, 0.22, 0.28]",6,15.91,595.3200073242188
+05_Design_Pattern/09_Compositum/05_DesignPattern_SU_Kompositum_196.pdf,74,3,[1.3],1,1.30,595.3200073242188
+05_Design_Pattern/09_Compositum/SES_05_MS_Entwurfsmuster_08_Kompositum_192.pdf,356,126,"[0.52, 0.29, 0.31, 12.89, 9.82, 14.73, 4.85]",7,43.42,595.3200073242188
+05_Design_Pattern/09_Compositum/SES_05_TZ_Entwurfsmuster_Tafelanschrift-Kompositum_197.pdf,0,1,[0.33],1,0.33,841.0
+05_Design_Pattern/10_Template_Method/05_DesignPattern_SU_TemplateMethod_205.pdf,37,0,[0.15],1,0.15,540.0
+05_Design_Pattern/10_Template_Method/05_DesignPattern_TAM_TemplateMethod_Gamma_206.pdf,1192,2,"[0.44, 0.51, 0.63, 0.47, 0.52, 0.53, 0.62, 0.33, 0.8, 0.4, 0.18]",11,5.43,792.0
+05_Design_Pattern/10_Template_Method/SES_05_MS_Entwurfsmuster_09_TemplateMethod_201.pdf,357,77,"[0.52, 7.59, 0.42, 0.25, 18.06, 0.26]",6,27.09,595.3200073242188
+05_Design_Pattern/11_Strategy/05_DesignPattern_SU_Strategy_239.pdf,31,0,[0.12],1,0.12,540.0
+05_Design_Pattern/11_Strategy/05_DesignPattern_TAM_Stragey_240.pdf,2485,2,"[0.44, 0.83, 0.62, 0.56, 0.5, 0.74, 0.26, 0.68, 0.61, 0.65, 0.57, 0.58, 0.48, 0.4, 0.29, 0.28, 0.48, 0.82, 0.8]",19,10.61,792.0
+05_Design_Pattern/11_Strategy/SES_05_MS_Entwurfsmuster_12_Strategy_235.pdf,253,82,"[0.63, 0.31, 6.72, 5.06, 11.23, 4.4]",6,28.35,595.3200073242188
+05_Design_Pattern/12_Anti_Pattern/05_DesignPattern_SU_Anit-Pattern_Grundlagen_266.pdf,59,1,[0.57],1,0.57,595.3200073242188
+05_Design_Pattern/12_Anti_Pattern/05_DesignPattern_TAM_AntiPattern_William_J_Brown_267.pdf,3782,3,"[1.23, 1.68, 1.56, 2.28, 2.82, 2.44, 2.22, 1.89]",8,16.13,792.0
+05_Design_Pattern/12_Anti_Pattern/SES_05_MS_Entwurfsmuster_14_Anti-Pattern_262.pdf,211,2,"[0.77, 0.21, 0.34, 0.19]",4,1.51,595.3200073242188
+05_Design_Pattern/12_Anti_Pattern/SES_05_ZT_Entwurfsmuster_Securing_the_Broker_Pattern_290.pdf,3276,10,"[1.01, 4.04, 0.37, 0.31, 0.04, 1.24, 1.28, 1.3, 0.06, 0.45, 0.9, 1.17, 0.62, 0.56, 0.03, 1.22, 0.63, 0.26, 0.94]",19,16.44,792.0
+05_Design_Pattern/13_Architecture_Design_Anti_Pattern/05_DesignPattern_SU_Architektur-Design-Anti-Pattern_275.pdf,42,5,[1.83],1,1.83,595.3200073242188
+05_Design_Pattern/13_Architecture_Design_Anti_Pattern/05_DesignPattern_TAM_Design_AntiPattern_William_J_Brown_276.pdf,17417,15,"[2.03, 2.3, 1.93, 1.61, 1.79, 1.57, 2.2, 1.96, 1.94, 1.78, 1.41, 2.46, 2.07, 2.09, 1.98, 1.79, 2.09, 2.42, 2.22, 1.59, 1.29, 2.48, 2.49, 2.07, 1.84, 2.35, 2.69, 2.52, 2.8, 2.12, 2.05, 1.8, 2.48, 1.38, 0.97, 2.19, 1.91]",37,74.67,792.0
+05_Design_Pattern/13_Architecture_Design_Anti_Pattern/SES_05_MS_Entwurfsmuster_15_Architektur-_Design-Anti-Pattern_271.pdf,266,1,"[0.53, 0.16, 0.24, 0.11, 0.35]",5,1.40,595.3200073242188
+05_Design_Pattern/14_Programming_Anti_Pattern/05_DesignPattern_SU_Programming-Anti-Pattern_284.pdf,28,5,[1.78],1,1.78,595.3200073242188
+05_Design_Pattern/14_Programming_Anti_Pattern/05_DesignPattern_TAM_AntiPattern_William_J_Brown_285.pdf,17943,18,"[1.88, 2.44, 2.41, 1.73, 1.99, 2.11, 1.11, 1.36, 2.03, 1.37, 1.78, 2.01, 1.94, 2.28, 2.92, 1.77, 2.12, 2.39, 1.7, 1.87, 1.7, 2.11, 1.77, 1.91, 2.91, 2.44, 1.94, 2.12, 2.8, 1.23, 0.64, 0.76, 0.85, 1.92, 2.13, 2.24, 1.86, 2.7, 2.52, 2.03]",40,77.77,792.0
+05_Design_Pattern/14_Programming_Anti_Pattern/SES_05_MS_Entwurfsmuster_16_Programming-Anti-Pattern_280.pdf,346,4,"[0.64, 0.35, 0.22, 0.19, 0.21, 1.04, 0.06]",7,2.72,595.3200073242188
+06_Safety_and_Security/01_Grundlagen/FuSi-ITSec-Grundlagen-TAM_305.pdf,18288,0,"[0.07, 0.54, 0.34, 1.54, 1.23, 0.7, 1.77, 2.32, 0.9, 1.39, 1.13, 1.49, 1.94, 1.12, 1.43, 1.77, 1.59, 1.16, 1.84, 1.84, 1.96, 0.68, 1.34, 1.99, 2.22, 1.99, 1.54, 1.82, 1.51, 2.09, 1.91, 2.04, 2.01, 0.4, 1.1, 0.56, 0.97, 1.54, 1.45, 1.33, 1.36, 1.5, 0.19, 1.79, 2.1, 1.94, 1.91, 2.04, 2.12, 1.62]",50,73.15,841.0
+06_Safety_and_Security/01_Grundlagen/SES_06_MS_Safety_Security_01_Grundlagen_300.pdf,842,20,"[1.43, 0.21, 1.0, 1.41, 1.77, 0.59, 0.83, 0.83, 0.85, 0.24, 0.55, 0.28, 0.04]",13,10.03,595.3200073242188
+06_Safety_and_Security/01_Grundlagen/SES_06_ZF_Safety_Security_01_Grundlagen_662.pdf,35,4,[1.47],1,1.47,595.3200073242188
+06_Safety_and_Security/01_Grundlagen/SES_06_ZT_Safety_Security_BasicConceptsandTaxonomyofDependableandSecureComputing_304.pdf,17574,26,"[3.45, 3.53, 4.15, 3.54, 2.13, 1.16, 3.72, 3.59, 3.45, 3.87, 3.28, 2.02, 4.01, 3.63, 2.61, 1.4, 3.72, 3.51, 3.88, 4.03, 2.69, 5.41, 6.18]",23,78.96,774.0
+06_Safety_and_Security/02_Bedrohungsmodellierung/SES_06_MS_Safety_Security_02_Bedrohungsmodellierung_308.pdf,1951,18,"[0.47, 0.13, 0.23, 0.38, 0.2, 0.27, 0.41, 0.43, 0.24, 0.18, 0.22, 0.26, 0.17, 0.28, 0.43, 1.78, 0.47, 0.43, 0.45, 0.18, 0.2, 0.39, 0.38, 0.38, 0.7, 0.72, 0.28, 1.1, 0.18, 0.29, 0.55, 1.04]",32,13.80,595.3200073242188
+06_Safety_and_Security/02_Bedrohungsmodellierung/SES_06_ZT_Safety_Security_SCANNEDBOOKPAGE_TAM_314.pdf,0,13,"[0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33]",13,4.33,595.2000122070312
+06_Safety_and_Security/03_Funktionale_Sicherheit/SES_06_MS_Safety_Security_03_FunktionaleSicherheit_316.pdf,3827,60,"[1.79, 0.31, 0.22, 0.28, 0.14, 15.08, 0.31, 0.52, 0.42, 0.25, 0.18, 0.58, 0.38, 0.43, 0.51, 0.24, 0.4, 0.48, 0.35, 0.51, 0.28, 0.29, 0.71, 0.56, 0.58, 0.24, 0.31, 0.41, 0.28, 0.29, 0.37, 0.36, 0.28, 0.28, 0.28, 0.67, 0.76, 0.93, 0.56, 0.72, 0.5, 0.41, 0.41, 0.41, 1.04]",45,35.31,595.3200073242188
+06_Safety_and_Security/03_Funktionale_Sicherheit/SES_06_ZF_Safety_Security_03_FunktionaleSicherheit_663.pdf,140,16,"[1.42, 3.57, 0.9]",3,5.89,595.3200073242188
+06_Safety_and_Security/03_Funktionale_Sicherheit/SES_06_ZT_Safety_Security_SecureDesignPatterns_320.pdf,33539,46,"[0.84, 1.43, 1.0, 0.83, 0.65, 0.06, 0.14, 0.83, 1.63, 1.92, 1.35, 1.78, 0.24, 1.59, 1.57, 1.07, 1.29, 1.3, 1.6, 1.55, 1.0, 0.71, 0.88, 0.85, 1.67, 1.11, 1.69, 1.29, 1.21, 0.81, 0.6, 0.81, 0.22, 1.73, 1.59, 1.83, 1.88, 1.35, 1.69, 1.82, 1.21, 1.64, 1.06, 0.89, 1.06, 1.44, 2.06, 1.2, 1.71, 1.48, 0.69, 0.71, 0.81, 1.11, 0.64, 1.24, 0.76, 1.93, 1.78, 1.46, 1.3, 0.81, 1.08, 1.36, 1.35, 1.13, 1.74, 1.32, 0.9, 0.62, 1.0, 0.76, 0.74, 0.84, 0.78, 0.88, 1.28, 1.39, 1.82, 1.75, 0.92, 0.55, 1.15, 1.9, 1.15, 0.71, 0.91, 0.66, 1.2, 1.37, 1.2, 1.54, 0.85, 0.65, 1.35, 0.84, 0.78, 1.68, 1.49, 0.53, 0.58, 1.2, 1.38, 1.44, 10.7, 2.39, 1.95, 1.1, 0.78, 1.28, 1.75, 1.62, 0.99, 1.24, 0.95, 1.05, 0.54, 1.99]",118,149.49,792.0
+06_Safety_and_Security/03_Funktionale_Sicherheit/SES_07_ZT_Softwaretest_Grundlagen_331.pdf,11772,0,"[0.98, 1.85, 1.86, 1.93, 1.43, 1.03, 1.34, 1.12, 1.2, 1.4, 1.5, 1.45, 1.7, 1.54, 1.62, 1.42, 1.28, 1.42, 1.7, 1.56, 1.69, 1.26, 2.4, 1.65, 1.72, 1.42, 1.59, 2.12, 2.09, 1.82]",30,47.09,792.0
+06_Safety_and_Security/04_IT_Sicherheit/SES_06_MS_Safety_Security_04_IT-Sicherheit_323.pdf,797,11,"[0.76, 0.41, 0.41, 0.36, 0.8, 0.45, 0.78, 0.27, 0.88, 0.63, 1.04, 0.06]",12,6.85,595.3200073242188
+06_Safety_and_Security/04_IT_Sicherheit/SES_06_MS_Safety_Security_04_IT-Sicherheit_RSA_Verschlüsselung_324.pdf,477,7,"[2.45, 0.29, 0.29, 0.64, 0.58]",5,4.24,595.3200073242188
+06_Safety_and_Security/04_IT_Sicherheit/SES_06_ZT_Safety_Security_RansomwareVortrag_330.pdf,4484,65,"[2.1, 2.34, 1.78, 0.83, 0.83, 0.84, 0.52, 1.33, 0.46, 0.73, 0.86, 0.83, 0.52, 0.51, 0.26, 0.48, 0.54, 0.85, 1.39, 0.72, 0.39, 0.52, 0.86, 1.21, 0.85, 1.16, 0.65, 3.12, 0.41, 0.54, 1.19, 0.77, 1.27, 0.61, 0.52, 0.58, 0.25, 0.66, 0.56, 0.77, 0.5, 0.95, 0.82, 0.87, 0.88]",45,39.60,540.0
+06_Safety_and_Security/04_IT_Sicherheit/SES_99_ZF_ITSecurity_328.pdf,301,0,"[0.23, 0.16, 0.26, 0.24, 0.19, 0.13]",6,1.20,540.0
+07_Softwaretest/01_Grundlagen/07_Softwaretest_TAM_Grundlagen_Softwaretest_408.pdf,10254,0,"[0.82, 1.09, 1.35, 1.4, 1.56, 1.4, 1.32, 1.33, 1.01, 1.47, 1.64, 1.44, 1.26, 0.84, 1.35, 1.63, 1.37, 1.12, 1.38, 1.48, 1.53, 1.13, 1.5, 1.24, 1.5, 1.35, 1.39, 1.43, 1.53, 1.38, 0.77]",31,41.02,673.5999755859375
+07_Softwaretest/01_Grundlagen/SES_07_MS_Softwaretest_01_Motivation_776.pdf,122,3,"[1.04, 0.18, 0.27]",3,1.49,540.0
+07_Softwaretest/01_Grundlagen/SES_07_MS_Softwaretest_02_Grundbegriffe_334.pdf,146,3,"[1.04, 0.18, 0.16, 0.2]",4,1.58,540.0
+07_Softwaretest/01_Grundlagen/SES_07_ZF_Softwaretest_Zusammenfassung_339.pdf,202,0,"[0.14, 0.2, 0.1, 0.24, 0.12]",5,0.81,540.0
+07_Softwaretest/01_Grundlagen/SU_Grundlagen_338.pdf,74,0,"[0.0, 0.29]",2,0.30,540.0
+07_Softwaretest/02_Statische_Tests/SES_07_MS_Softwaretest_03_Statische_Tests_343.pdf,194,3,"[1.04, 0.4, 0.17, 0.16]",4,1.78,540.0
+07_Softwaretest/02_Statische_Tests/SES_07_TAM_Softwaretest_Statischer_Test_348.pdf,6683,0,"[1.14, 1.36, 1.33, 1.25, 1.29, 1.2, 1.27, 1.41, 1.26, 1.46, 1.36, 1.23, 1.12, 1.4, 0.91, 1.29, 1.22, 1.39, 1.1, 0.98, 1.2, 0.56]",22,26.73,673.5999755859375
+07_Softwaretest/02_Statische_Tests/SU_Statische Tests_347.pdf,46,0,"[0.01, 0.18]",2,0.18,540.0
+07_Softwaretest/03_Dynamische_Tests/Dynamischer_Test_Übersicht_357.pdf,851,0,"[1.33, 1.04, 1.04]",3,3.40,673.5999755859375
+07_Softwaretest/03_Dynamische_Tests/SES_07_MS_Softwaretest_04_Dynamische_Tests_352.pdf,243,3,"[1.04, 0.17, 0.31, 0.44]",4,1.97,540.0
+07_Softwaretest/03_Dynamische_Tests/SU_Dynamische Tests_356.pdf,70,0,"[0.01, 0.27]",2,0.28,540.0
+07_Softwaretest/04_Äquivalenzklassenanlyse/SES_07_MS_Softwaretest_05_Aequivalenzklassenanalyse_361.pdf,528,5,"[1.04, 0.35, 0.57, 0.29, 0.26, 0.28, 0.51, 0.26, 0.22]",9,3.78,540.0
+07_Softwaretest/04_Äquivalenzklassenanlyse/SES_07_TAM_Äquivalenzklassenanalyse_366.pdf,3815,0,"[1.33, 1.22, 1.35, 1.24, 1.52, 1.25, 1.06, 1.3, 1.12, 1.3, 1.29, 1.28]",12,15.26,673.5999755859375
+07_Softwaretest/04_Äquivalenzklassenanlyse/SU_Äquivalenzklassen_365.pdf,47,0,"[0.0, 0.18]",2,0.19,540.0
+07_Softwaretest/05_Grenzwertanalyse/SES_07_MS_Softwaretest_06_Grenzwertanalyse_370.pdf,455,7,"[1.04, 0.31, 0.41, 0.98, 0.48, 0.48, 0.45]",7,4.15,540.0
+07_Softwaretest/05_Grenzwertanalyse/SES_07_TAM_Grenzwertanalyse_375.pdf,1653,0,"[1.28, 1.38, 1.31, 1.42, 1.22]",5,6.61,673.5999755859375
+07_Softwaretest/05_Grenzwertanalyse/SU_Grenzwertanalyse_374.pdf,61,0,"[0.0, 0.24]",2,0.24,540.0
+07_Softwaretest/06_White_Box_Tests/SES_07_MS_Softwaretest_07_White_Box_Tests_379.pdf,504,4,"[1.05, 0.36, 0.19, 0.52, 0.34, 0.19, 0.28, 0.24, 0.18]",9,3.35,540.0
+07_Softwaretest/06_White_Box_Tests/SES_07_TAM_White_Box_Coverage_384.pdf,5145,0,"[1.48, 0.86, 0.73, 1.26, 1.22, 1.3, 1.3, 1.49, 1.48, 1.06, 1.22, 1.17, 0.51, 1.38, 1.4, 1.4, 1.32]",17,20.58,673.5999755859375
+07_Softwaretest/06_White_Box_Tests/SU_C-Coverage_383.pdf,3,1,"[0.01, 0.34]",2,0.35,540.0
+07_Softwaretest/07_Coding_Guidelines/SES_07_MS_Softwaretest_07_SafeSecure-Coding_388.pdf,4734,112,"[2.43, 0.49, 0.82, 0.62, 8.89, 0.58, 2.49, 0.5, 0.84, 14.89, 0.86, 0.73, 1.32, 0.61, 4.84, 0.41, 0.48, 0.4, 0.29, 0.91, 1.49, 0.49, 0.15, 0.35, 0.62, 0.5, 0.48, 0.6, 0.91, 0.35, 0.26, 0.95, 0.64, 0.7, 0.38, 0.37, 0.5, 0.22, 0.36, 1.27, 0.36, 0.9]",42,56.27,595.3200073242188
+07_Softwaretest/07_Coding_Guidelines/SU_Coding Guidelines_392.pdf,4,1,"[0.01, 0.34]",2,0.35,540.0
+07_Softwaretest/08_SW_Metriken/SES_07_TAM_Metriken_mccabeBOOKPAGE_403.pdf,5470,227,"[7.86, 6.83, 7.29, 3.04, 2.03, 5.38, 9.59, 10.3, 12.69, 10.6, 8.69, 8.68, 4.58]",13,97.55,790.0800170898438
+07_Softwaretest/08_SW_Metriken/SES_07_ZT_Softwaretest_Halstaed-Metrik_398.pdf,349,9,"[2.09, 0.95, 0.37, 0.98]",4,4.40,540.0
+07_Softwaretest/08_SW_Metriken/SES_07_ZT_Softwaretest_McCabe_Metrik_397.pdf,474,10,"[2.09, 1.04, 0.99, 1.11]",4,5.23,540.0
+07_Softwaretest/08_SW_Metriken/SES_07_ZT_Softwaretest_Software-Metriken-Modularity_396.pdf,1032,8,"[2.1, 0.52, 0.26, 0.33, 0.28, 1.06, 0.34, 0.52, 0.86, 0.55]",10,6.79,540.0
+07_Softwaretest/08_SW_Metriken/SU_SW-Metriken_402.pdf,73,0,"[0.01, 0.28]",2,0.29,540.0

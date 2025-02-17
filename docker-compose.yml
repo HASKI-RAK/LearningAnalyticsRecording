@@ -1,0 +1,15 @@
+services:
+  server:
+    container_name: server
+    build: ./
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/app/src
+      - recordings:/app/recordings
+      - ./certs:/app/certs
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
+      - URL=${URL}
+volumes:
+  recordings:

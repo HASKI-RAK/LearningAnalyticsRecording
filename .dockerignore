@@ -1,0 +1,4 @@
+node_modules
+recordings.tar
+Dockerfile
+.dockerignore

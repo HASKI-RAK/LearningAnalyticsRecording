@@ -1,0 +1,12 @@
+number, type
+0,Mutation
+1,MouseMove,
+2,MouseInteraction
+3,Scroll
+4,ViewportResize
+5,Input
+6,TouchMove
+7,MediaInteraction
+8,StyleSheetRule,
+9,CanvasMutation
+10,Font

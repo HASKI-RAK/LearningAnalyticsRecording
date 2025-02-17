@@ -1,0 +1,1 @@
+docker compose exec server sh -c "rm -rf /app/recordings/*"

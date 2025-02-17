@@ -1,0 +1,1 @@
+docker compose exec -T server tar xf - -C / < ./recordings.tar

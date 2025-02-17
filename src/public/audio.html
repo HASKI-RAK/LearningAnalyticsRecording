@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube api recorder</title>
+</head>
+<body>
+  <iframe
+        width="640" height="360"
+        src="https://www.youtube.com/embed/d4gZ89r1_YU"
+        frameborder="0"
+    ></iframe>
+
+  <iframe
+    width="640" height="360"
+    src="https://www.youtube.com/embed/vXYVfk7agqU"
+    frameborder="0"
+  ></iframe>
+    
+
+  <h2>text</h2>
+  <p>4.	Alle Konfigurationsdateien befinden sich im obersten Ordner. Der direkte Programmcode befindet sich in src. Die Recordings sind im Docker Volume gespeichert. Die Utilites befinden sich in einem utils Ordner. Hierin befindet sich auch für das Löschen, Exportieren und Importieren der Recordings ein Skript (Hierbei werden die Recordings in einem tar Archive gebündelt). Du kannst das gerne mal Testen, indem du folgende Befehle ausführst:</p>
+  <p>Damit man das Projekt bei sich lokal zum laufen bringt, muss man folgende Schritte befolgen: Passendes Docker Setup haben (unterschiedliche Vorgehensweise bei Linux, Windows, MacOS) Das Projekt von git clonen docker compose up --build im Terminal ausühren --> ersetzt worden durch bash ./init.sh, welches bei jeder Ausführung docker compose down und docker compose up --build ausführt. Dadurch werden auch cache probleme umgangen, wie das Nichterkennen von aktualisierten https Zertifikaten eventuell muss init.sh zuerst mit chmod +x init.sh als ausführbar markiert werden. init.sh setzt localhost/127.0.0.1 auf learninganalytics.local Dadurch nicht über localhost:8000, sondern über learninganalytics.local:8000 erreichbar. https Zertifikat kann eingebunden werden über mkcert. [https://www.howtoforge.de/anleitung/wie-man-lokal-vertrauenswurdige-ssl-zertifikate-mit-mkcert-auf-ubuntu-20-04-erstellt/](Guide für Erstellen eines Zertifikats in Ubuntu) --> apt-get update-y apt-get install wget libnss3-tols wget https://github.com/FiloSottile/mkcert/releases/download/v1.4.3/mkcert-v1.4.3-linux-amd64 (note: Version kann auch neuer sein) mv mkcert-v1.4.3-linux-amd64 /usr/bin/mkcert chmod +x /usr/bin/mkcert mkcert --version (Zur Überprüfung, ob korrekt installiert wurde. Sollte v1.4.3 zurückgeben) mkcert -install mcert -CAROOT gibt den Pfad zum CA-Zertifikat zurück wslpath "$(wslvar USERPROFILE)" siehe init</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/rrweb-player@latest/dist/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/rrweb@2.0.0-alpha.14/dist/rrweb.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/rrweb@2.0.0-alpha.14/dist/rrweb.min.css" rel="stylesheet">
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://cdn.socket.io/4.1.3/socket.io.min.js"></script>
+
+  <script>
+    let stopFunction = null;
+    let recordingStarted = false;
+    let socket;
+    let room = null;
+    // hidden
+    const authToken = `XXXXXXXXXXXXXXX`;
+    let storedExists = false;
+
+    //yt api stuff
+    // Create YouTube player and handle events
+    let recordedEvents = [];
+
+    // code adapted from https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/#hideyt-embed-code
+    "use strict";
+    if (document.readyState !== 'loading') init();
+    else document.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+      if (window.runOnce) return;
+
+      if (typeof YT === 'undefined') {
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      }
+
+      var iframes = [];
+      // counter to differentiate the youtube iframes
+      let videoCounter = 0;
+      
+      for (var iframe of document.querySelectorAll("iframe[src]")) {
+        var src = iframe.getAttribute("src");
+        if (src.includes("youtube.com/embed/")) {
+          if(!src.includes("enablejsapi=1"))
+            if(src.includes("?"))
+              iframe.setAttribute("src", src + "&enablejsapi=1");
+            else
+              iframe.setAttribute("src", src + "?enablejsapi=1");
+          
+          // add video counter id to iframe of video and increment counter
+          iframe.setAttribute("data-video-id", "video-" + videoCounter);
+          videoCounter++;
+          iframes.push(iframe);
+        }
+      }
+
+      var overlayStyles = {
+        display: "none",
+        content:"",
+        position: "absolute",
+        left: 0,
+        right: 0,
+        cursor: "pointer",
+        backgroundColor: "black",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      };
+
+      window.onYouTubeIframeAPIReady = function() {
+        iframes.forEach(function(iframe) {
+          var overlay = document.createElement('div');
+          for (var style in overlayStyles) {
+            overlay.style[style] = overlayStyles[style];
+          }
+              
+          var wrapper = document.createElement('div');
+          wrapper.style.display = "inline-block";
+          wrapper.style.position = "relative";
+
+          iframe.parentNode.insertBefore(wrapper, iframe);
+              
+          wrapper.appendChild(overlay);
+          wrapper.appendChild(iframe);
+          
+          var videoId = iframe.getAttribute("data-video-id");
+
+          var player  = new YT.Player(iframe, {
+            events: {
+              'onStateChange': function(event) {
+                onPlayerStateChange(event, videoId, overlay);
+              }
+            }
+          });
+          
+          wrapper.addEventListener("click", function() {
+            var playerState = player.getPlayerState();
+            if (playerState == YT.PlayerState.ENDED) {
+              player.seekTo(0);
+            } else if (playerState == YT.PlayerState.PAUSED) {
+              player.playVideo();
+            }
+          });
+        });
+      };
+      window.runOnce = true;
+    }
+
+    function onPlayerStateChange(event, videoId, overlay) {
+      let playerState = event.data;
+      let currentTime = event.target.getCurrentTime();
+      let playbackRate = event.target.getPlaybackRate();
+      if (event.data == YT.PlayerState.ENDED) {
+        logCustomEvent('ended', currentTime, playbackRate, videoId)
+        overlay.style.backgroundImage = "url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCI+PHBhdGggZD0iTTI1NSAxMDJWMEwxMjcuNSAxMjcuNSAyNTUgMjU1VjE1M2M4NC4xNSAwIDE1MyA2OC44NSAxNTMgMTUzcy02OC44NSAxNTMtMTUzIDE1My0xNTMtNjguODUtMTUzLTE1M0g1MWMwIDExMi4yIDkxLjggMjA0IDIwNCAyMDRzMjA0LTkxLjggMjA0LTIwNC05MS44LTIwNC0yMDQtMjA0eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==)";
+        overlay.style.backgroundSize = "64px 64px";
+        overlay.style.top = 0;
+        overlay.style.bottom = 0;
+        overlay.style.display = "inline-block";
+      } else if (event.data == YT.PlayerState.PAUSED) {
+        logCustomEvent('pause', currentTime, playbackRate, videoId);
+        overlay.style.backgroundImage = "url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNzA2LjY2NyIgaGVpZ2h0PSIxNzA2LjY2NyIgdmlld0JveD0iMCAwIDEyODAgMTI4MCI+PHBhdGggZD0iTTE1Ny42MzUgMi45ODRMMTI2MC45NzkgNjQwIDE1Ny42MzUgMTI3Ny4wMTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)";
+        overlay.style.backgroundSize = "40px 40px";
+        overlay.style.top = "40px";
+        overlay.style.bottom = "50px";
+        overlay.style.display = "inline-block";
+      } else if (event.data == YT.PlayerState.PLAYING) {
+        logCustomEvent('play', currentTime, playbackRate, videoId);
+        overlay.style.display = "none";
+      }
+    };
+
+
+    function logCustomEvent(type, currentTime, playbackRate, videoId) {
+      const event = {
+        type: 'custom',
+        data: {
+          type,
+          currentTime,
+          playbackRate,
+          videoId
+        },
+        timestamp: Date.now()
+      };
+      if (socket && socket.connected) {
+        socket.emit("recorder-event", { event });
+      } else {
+        storeEventLocally(event);
+      }
+    }
+    
+    
+
+
+    // store events in sessionStorage in case of unexpected disconnect while waiting for reconnect
+    function storeEventLocally(event) {
+      const key = `recordingEvents_${room}`;
+      let events = JSON.parse(sessionStorage.getItem(key)) || [];
+      events.push(event);
+      sessionStorage.setItem(key, JSON.stringify(events));
+      storedExists = true;
+    }
+    
+    // send locally stored recorder-events
+    function sendStoredEvents() {
+      const key = `recordingEvents_${room}`;
+      let events = JSON.parse(sessionStorage.getItem(key)) || [];
+      events.forEach(event => {
+        socket.emit("recorder-event", { event });
+      });
+      sessionStorage.removeItem(key); // remove events from session storage
+    }
+
+    // used to check, whether a room was set up before a potential reconnect; socket does not distinguish between connect and reconnect
+    function getRoomFromLocalStorage() {
+      const roomData = JSON.parse(sessionStorage.getItem('roomData'));
+      if (roomData) {
+        return roomData.room;
+      } else {
+      return null;
+      }
+    }
+
+
+    function startRecording() {
+      console.log("starting recording");
+      if (recordingStarted) return; //prevent multiple recordings from being started
+      const serverUrl = 'server-dummy-placeholder';
+      const url = new URL(serverUrl);
+      const protocol = url.protocol;
+      const hostname = url.hostname;
+      const socketUrl = `${protocol}//${hostname}:8000`
+
+      socket = io(socketUrl, {
+        query: {
+          token: authToken
+        }
+      });
+
+      socket.on("connect", () => {
+        room = getRoomFromLocalStorage();
+        if(!room) {  // create new logfile/room if connection is established for the first time
+          room = Math.random().toString(36).substr(2, 16) + '_';
+          room += 'audio';
+          sessionStorage.setItem('roomData', JSON.stringify({ room: room, timestamp: new Date().getTime() }));
+        }
+        socket.emit("recorder-connect", room);
+        if (typeof rrweb !== 'undefined') {
+        stopFunction = rrweb.record({
+          emit: (event) => {
+            if (socket.connected) { // emit events if connected, store locally otherwise
+              socket.emit("recorder-event", { event });
+            } else {
+              storeEventLocally(event);
+            }
+          }
+        });
+
+        recordingStarted = true;
+        console.log('recording started.');
+        if (storedExists == true) { // send stored events on reconnect
+          console.log("sending stored events");
+          sendStoredEvents(room); 
+          storedExists = false;
+        }
+      } else {
+        console.error('rrweb is not defined');
+      }
+      });
+
+      socket.on('disconnect', () => { // currently do nothing on disconnect, only stop recording when page unloads
+       // stopRecording();
+       //storeEventLocally();
+      });
+    }
+
+    function stopRecording() {
+      if (!recordingStarted) return; // recording not started, no need to stop it
+        
+        if(socket) { // disconnect recorder & socket; clean up sessionStorage
+          room = getRoomFromLocalStorage();
+          sessionStorage.removeItem('roomData');
+          room = null;
+        }
+        if (stopFunction) { // call stopFunction only if it exists.
+          console.log("calling stopfunction");
+
+          stopFunction();
+          stopFunction = null;
+        }
+
+        recordingStarted = false;
+        console.log("Recording stopped.");
+      }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof rrweb === 'undefined') {
+        console.error('rrweb is not defined');
+      } else {
+    startRecording();
+      }
+    });
+
+
+
+    //  manage recording, room and socket when client unloads page
+    window.addEventListener('beforeunload', function () {
+      room = getRoomFromLocalStorage();
+      const data = {
+        socketId: socket.id,
+        room: room
+      }
+      console.log(data);
+      fetch('/client-disconnect', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json'
+        },
+        body: JSON.stringify(data)
+        })
+        .then(response => {
+          console.log("Request sent successfully");
+          stopRecording();
+        })
+        .catch(error => {
+          console.error("Error sending request", error);
+        });
+    });
+  </script>
+</body>
+</html>

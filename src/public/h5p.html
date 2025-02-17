@@ -1,0 +1,18 @@
+
+// Select the element to observe
+const elementToObserve = document.querySelector('.h5p-feedback');
+
+// Create a MutationObserver instance
+const observer = new MutationObserver((mutationsList) => {
+    for (const mutation of mutationsList) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+            console.log('completed');
+        }
+    }
+});
+
+// Configure the observer to listen for attribute changes
+const config = { attributes: true };
+
+// Start observing the target element for changes
+observer.observe(elementToObserve, config);
